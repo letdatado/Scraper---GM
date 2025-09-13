@@ -1,6 +1,6 @@
-# Google Maps Café Scraper (Playwright, Python)
+# GM Café Scraper (Playwright, Python)
 
-Scrapes Businesses (for exmaple, cafes) from **Google Maps** for a list of a given cities using a **single boolean query**.  
+Scrapes Businesses (for exmaple, cafes) from **GMs** for a list of a given cities using a **single boolean query**.  
 
 Outputs a CSV with: city, name, address, phone, website, rating, number of reviews, latitude, longitude, Google Maps URL, and social links.
 
