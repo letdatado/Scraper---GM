@@ -1,6 +1,6 @@
-# GM Café Scraper (Playwright, Python)
+# G Maps Business Scraper (Playwright, Python)
 
-Scrapes Businesses (for exmaple, cafes) from **GMs** for a list of a given cities using a **single boolean query**.  
+Scrapes Businesses (for exmaple, salons) from **GM** for a list of a given cities using a **single boolean query**.  
 
 Outputs a CSV with: city, name, address, phone, website, rating, number of reviews, latitude, longitude, Google Maps URL, and social links.
 
@@ -28,8 +28,8 @@ Outputs a CSV with: city, name, address, phone, website, rating, number of revie
 
 ---
 
-## Choosing Cities and Keywords
-Please check the `cities_and_keywords.py` file to list the cities and keywords of choice.
+## Choosing Cities, Keywords, and geographically dependent settings
+Please check the `params.py` file to list the cities and keywords of choice.
 
 ---
 
@@ -91,7 +91,7 @@ If needed, set HEADLESS = False to observe and adjust timeouts/selectors.
 
 - Encoding issues on Windows: use the UTF-8 commands above.
 
-- Duplicate rows across runs: delete google_maps_cafes.csv before re-running, or add your own cross-run dedupe.
+- Duplicate rows across runs: delete the existing csv before re-running, or add your own cross-run dedupe.
 
 ---
 
